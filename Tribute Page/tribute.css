@@ -1,0 +1,319 @@
+         * {
+             margin: 0;
+             font-family: 'Luxurious Roman', cursive;
+         }
+         
+         .header-background {
+             background-image: url("images/header-brackground.jpg");
+             background-repeat: no-repeat;
+             background-color: transparent;
+             background-position: center center;
+             background-size: cover;
+             height: 500px;
+             width: auto;
+             padding-top: 170px;
+             display: grid;
+             grid-template-columns: 100%;
+             grid-template-rows: 30% 30% 25%;
+             justify-items: center;
+         }
+         
+         #profile-picture {
+             height: 240px;
+             width: 250px;
+             border-radius: 50%;
+             position: relative;
+             bottom: 90%;
+         }
+         
+         h1 {
+             color: rgb(236, 236, 236);
+             font-size: 7vw;
+             margin: 4vw;
+             position: absolute;
+             top: 43%;
+             opacity: 0.9;
+             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+         }
+         
+         #subtitle {
+             color: gray;
+             font-size: 3vw;
+             position: absolute;
+             top: 70%;
+             text-align: center;
+         }
+         
+         main {
+             height: 100%;
+             width: auto;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-around;
+         }
+         
+         .bg-1 {
+             background-image: url(images/berserk-bg-full.jpg);
+             background-position: center center;
+             background-size: cover;
+             background-repeat: no-repeat;
+             height: 100%;
+             width: auto;
+         }
+         
+         h2 {
+             color: white;
+             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+             font-size: 22px;
+             letter-spacing: 1px;
+         }
+         
+         p {
+             color: white;
+             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+             margin: 20px 20px;
+             text-align: justify;
+         }
+         
+         #image {
+             height: 20vw;
+             width: 15vw;
+         }
+         
+         #img-caption {
+             color: white;
+             font-size: 18px;
+             font-family: 'Luxurious Roman', cursive;
+             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+             text-align: center;
+         }
+         
+         .navigation {
+             height: 100%;
+             display: flex;
+             background-color: #333;
+             justify-content: center;
+             align-items: center;
+             position: relative;
+         }
+         
+         .navbar-links {
+             display: flex;
+             justify-content: space-around;
+         }
+         
+         .nav-bar-list {
+             margin: 0;
+             padding: 0;
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .nav-bar-list .links,
+         li {
+             color: white;
+             font-size: 28px;
+             list-style: none;
+             transition: all 400ms ease;
+         }
+         
+         .nav-bar-list li a {
+             text-decoration: none;
+             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+             color: white;
+             padding: 1rem;
+             display: block;
+         }
+         
+         .nav-bar-list .links:hover {
+             background-color: #555;
+             color: #333;
+         }
+         
+         .toggle-button {
+             position: absolute;
+             top: 1.30rem;
+             right: 1rem;
+             display: none;
+             flex-direction: column;
+             justify-content: space-between;
+             width: 30px;
+             height: 21px;
+             background: transparent;
+         }
+         
+         .toggle-button .bar {
+             height: 3px;
+             width: 100%;
+             background-color: white;
+             border-radius: 10px;
+         }
+         
+         .music-container {
+             display: flex;
+             justify-content: space-around;
+             align-items: center;
+             position: absolute;
+             right: 85vw;
+             top: 109vh;
+             z-index: 10000;
+         }
+         
+         #icon {
+             width: 40px;
+             cursor: pointer;
+         }
+         
+         .title {
+             margin: 20px;
+             padding: 10px;
+             display: flex;
+             justify-content: flex-start;
+             align-items: flex-start;
+             background-image: url(images/sword-icon-1.png);
+             background-position: center center;
+             background-size: cover;
+             height: 55px;
+             width: 330px;
+         }
+         
+         .berserk-title {
+             background-image: url(images/berserk-title-1.png);
+             background-position: center center;
+             background-size: 100% 100%;
+             height: 330px;
+             width: 100%;
+             padding-bottom: 30px;
+             margin-bottom: 30px;
+         }
+         
+         .life,
+         .career,
+         .berserk {
+             margin: 20px;
+             padding-top: 25px;
+         }
+         
+         .bg-2 {
+             background-image: url(images/background-2.png);
+             background-position: center center;
+             background-size: cover;
+             height: 100%;
+             width: auto;
+         }
+         
+         .berserk-container {
+             display: flex;
+             justify-content: space-around;
+         }
+         
+         .title h2 {
+             margin: 20px;
+             height: 100%;
+             width: 100%;
+             color: white;
+             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+             display: flex;
+             justify-content: flex-start;
+             align-items: center;
+             position: relative;
+             left: 15%;
+             bottom: 40%;
+         }
+         
+         .workspace-container {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             width: auto;
+         }
+         
+         #workspace {
+             height: 100%;
+             width: 100%;
+         }
+         
+         .characters-container {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             width: auto;
+             flex-direction: column;
+             gap: 20px;
+         }
+         
+         #characters-1,
+         #characters-2 {
+             height: 100%;
+             width: 100%;
+         }
+         
+         .bg-3 {
+             background-image: url(images/background-2.jpg);
+             background-position: center center;
+             background-size: cover;
+             background-repeat: no-repeat;
+             height: 100%;
+             width: auto;
+         }
+         
+         footer {
+             font-size: 26px;
+             color: rgb(236, 236, 236);
+             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+             margin-bottom: 10px;
+         }
+         
+         footer a {
+             text-decoration: none;
+             color: white;
+             transition: all 400ms ease;
+         }
+         
+         footer a:hover {
+             color: #333;
+         }
+         
+         @media (max-width: 850px) {
+             .music-container {
+                 top: 112vh;
+             }
+             #image {
+                 height: 250px;
+                 width: 130px;
+             }
+             .berserk-title {
+                 height: 200px;
+             }
+             #subtitle {
+                 font-size: 3.5vw;
+                 top: 65%;
+             }
+             h1 {
+                 font-size: 9vw;
+                 top: 50%;
+             }
+             .toggle-button {
+                 display: flex;
+             }
+             .navigation {
+                 flex-direction: column;
+                 align-items: flex-start;
+             }
+             .navbar-links {
+                 display: none;
+             }
+             .nav-bar-list {
+                 flex-direction: column;
+                 width: 100%;
+             }
+             .nav-bar-list li {
+                 text-align: center;
+             }
+             .navbar-links {
+                 width: 100%
+             }
+             .navbar-links.active {
+                 display: flex;
+             }
+         }

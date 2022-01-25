@@ -4,11 +4,10 @@
          }
          
          .header-background {
-             background-image: url("images/header-brackground.jpg");
+             background-image: url("images/background-2-smol.jpg");
              background-repeat: no-repeat;
-             background-color: transparent;
              background-position: center center;
-             background-size: cover;
+             background-size: 100% 100%;
              height: 500px;
              width: auto;
              padding-top: 170px;
@@ -27,7 +26,7 @@
          }
          
          h1 {
-             color: rgb(236, 236, 236);
+             color: white;
              font-size: 7vw;
              margin: 4vw;
              position: absolute;
@@ -37,28 +36,11 @@
          }
          
          #subtitle {
-             color: gray;
+             color: white;
              font-size: 3vw;
              position: absolute;
              top: 70%;
              text-align: center;
-         }
-         
-         main {
-             height: 100%;
-             width: auto;
-             display: flex;
-             flex-direction: column;
-             justify-content: space-around;
-         }
-         
-         .bg-1 {
-             background-image: url(images/berserk-bg-full.jpg);
-             background-position: center center;
-             background-size: cover;
-             background-repeat: no-repeat;
-             height: 100%;
-             width: auto;
          }
          
          h2 {
@@ -71,21 +53,8 @@
          p {
              color: white;
              text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-             margin: 20px 20px;
              text-align: justify;
-         }
-         
-         #image {
-             height: 20vw;
-             width: 15vw;
-         }
-         
-         #img-caption {
-             color: white;
-             font-size: 18px;
-             font-family: 'Luxurious Roman', cursive;
-             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-             text-align: center;
+             font-size: 3vh
          }
          
          .navigation {
@@ -140,6 +109,9 @@
              width: 30px;
              height: 21px;
              background: transparent;
+             background-repeat: no-repeat;
+             border: none;
+             cursor: pointer;
          }
          
          .toggle-button .bar {
@@ -164,6 +136,43 @@
              cursor: pointer;
          }
          
+         .bg-1 {
+             background-image: url(images/berserk-bg-full.jpg);
+             background-position: center center;
+             background-size: 100% 100%;
+             background-repeat: no-repeat;
+             height: 100%;
+             width: auto;
+         }
+         
+         .bg-2 {
+             background-image: url(images/berserk-brackground.jpg);
+             background-position: center center;
+             background-size: cover;
+             height: 100%;
+             width: auto;
+         }
+         
+         .bg-3 {
+             background-image: url(images/background-4.jpg);
+             background-position: center center;
+             background-size: 100% 100%;
+             background-repeat: no-repeat;
+             height: 1200px;
+             width: auto;
+             display: flex;
+             justify-content: center;
+             align-items: flex-end;
+         }
+         
+         main {
+             height: 100%;
+             width: auto;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-around;
+         }
+         
          .title {
              margin: 20px;
              padding: 10px;
@@ -175,36 +184,6 @@
              background-size: cover;
              height: 55px;
              width: 330px;
-         }
-         
-         .berserk-title {
-             background-image: url(images/berserk-title-1.png);
-             background-position: center center;
-             background-size: 100% 100%;
-             height: 330px;
-             width: 100%;
-             padding-bottom: 30px;
-             margin-bottom: 30px;
-         }
-         
-         .life,
-         .career,
-         .berserk {
-             margin: 20px;
-             padding-top: 25px;
-         }
-         
-         .bg-2 {
-             background-image: url(images/background-2.png);
-             background-position: center center;
-             background-size: cover;
-             height: 100%;
-             width: auto;
-         }
-         
-         .berserk-container {
-             display: flex;
-             justify-content: space-around;
          }
          
          .title h2 {
@@ -219,6 +198,62 @@
              position: relative;
              left: 15%;
              bottom: 40%;
+         }
+         
+         .life,
+         .career,
+         .berserk {
+             margin: 0 8%;
+             padding-top: 5%;
+             line-height: 2rem;
+         }
+         
+         .life {
+             padding-bottom: 6%;
+         }
+         
+         .career {
+             padding-bottom: 6%;
+         }
+         
+         .berserk-title {
+             background-image: url(images/berserk-title-1.png);
+             background-position: center center;
+             background-size: 100% 100%;
+             height: 330px;
+             width: 100%;
+             padding-bottom: 30px;
+             margin-bottom: 30px;
+         }
+         
+         .berserk-container {
+             display: flex;
+             justify-content: space-around;
+             align-items: flex-start;
+             padding-bottom: 10%;
+         }
+         
+         #img-div {
+             background-color: #333;
+             padding: 1%;
+             display: flex;
+             flex-direction: column;
+             justify-content: flex-start;
+             align-items: center;
+             margin-left: 10%;
+         }
+         
+         #image {
+             height: 100%;
+             width: 15vw;
+         }
+         
+         #img-caption {
+             color: white;
+             font-size: 18px;
+             font-family: 'Luxurious Roman', cursive;
+             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+             text-align: justify;
          }
          
          .workspace-container {
@@ -248,26 +283,35 @@
              width: 100%;
          }
          
-         .bg-3 {
-             background-image: url(images/background-2.jpg);
-             background-position: center center;
-             background-size: cover;
-             background-repeat: no-repeat;
-             height: 100%;
-             width: auto;
+         footer {
+             text-align: center;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-between;
+             align-items: center;
          }
          
-         footer {
-             font-size: 26px;
-             color: rgb(236, 236, 236);
-             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-             margin-bottom: 10px;
+         footer h2 {
+             font-size: 32px;
+             color: white;
+             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 rgb(20, 14, 14);
+             text-align: center;
+         }
+         
+         footer p {
+             margin-top: 5%;
+             margin-bottom: 1%;
          }
          
          footer a {
              text-decoration: none;
              color: white;
+             font-size: 5vh;
              transition: all 400ms ease;
+         }
+         
+         #wiki-kentaro {
+             font-size: 10vh;
          }
          
          footer a:hover {

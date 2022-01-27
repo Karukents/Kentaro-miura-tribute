@@ -17,7 +17,14 @@ icon.onclick = function() {
 
     }
 }
-window.addEventListener("scroll", function() {
-    var navigation = document.querySelector("navigation");
-    navigation.classList.toggle("sticky", window.scrollY)
-})
+window.onscroll = function() { myFunction() };
+var navbar = document.getElementById("navigation");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
+}

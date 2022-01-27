@@ -54,7 +54,7 @@
              color: white;
              text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
              text-align: justify;
-             font-size: 3vh
+             font-size: .85rem;
          }
          
          .navigation {
@@ -132,7 +132,7 @@
          }
          
          #icon {
-             width: 40px;
+             width: 30%;
              cursor: pointer;
          }
          
@@ -174,20 +174,22 @@
          }
          
          .title {
-             margin: 20px;
-             padding: 10px;
+             margin: 2%;
+             margin-top: 20%;
+             padding: 5%;
              display: flex;
-             justify-content: flex-start;
+             justify-content: center;
              align-items: flex-start;
              background-image: url(images/sword-icon-1.png);
              background-position: center center;
-             background-size: cover;
-             height: 55px;
-             width: 330px;
+             background-size: 100% 100%;
+             width: 90%;
          }
          
          .title h2 {
+             font-size: 4rem;
              margin: 20px;
+             padding-bottom: 2%;
              height: 100%;
              width: 100%;
              color: white;
@@ -197,7 +199,7 @@
              align-items: center;
              position: relative;
              left: 15%;
-             bottom: 40%;
+             bottom: 50%;
          }
          
          .life,
@@ -227,30 +229,29 @@
          }
          
          .berserk-container {
-             display: flex;
-             justify-content: space-around;
-             align-items: flex-start;
              padding-bottom: 10%;
+             color: white;
+             font-size: 1rem;
+             font-family: 'Luxurious Roman', cursive;
+             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
          }
          
          #img-div {
              background-color: #333;
              padding: 1%;
-             display: flex;
-             flex-direction: column;
-             justify-content: flex-start;
-             align-items: center;
-             margin-left: 10%;
+             width: 25%;
+             float: right;
+             margin-left: 5%;
          }
          
          #image {
-             height: 100%;
-             width: 15vw;
+             height: 40vh;
+             width: 100%;
          }
          
          #img-caption {
              color: white;
-             font-size: 18px;
+             font-size: 1rem;
              font-family: 'Luxurious Roman', cursive;
              text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
              text-align: justify;
@@ -319,23 +320,38 @@
          }
          
          @media (max-width: 850px) {
-             .music-container {
-                 top: 112vh;
+             .header-background {
+                 background-size: cover;
+                 height: 350px;
              }
-             #image {
-                 height: 250px;
-                 width: 130px;
-             }
-             .berserk-title {
-                 height: 200px;
-             }
-             #subtitle {
-                 font-size: 3.5vw;
-                 top: 65%;
+             #profile-picture {
+                 bottom: 75%;
+                 height: 190px;
+                 width: 200px;
              }
              h1 {
                  font-size: 9vw;
                  top: 50%;
+             }
+             #subtitle {
+                 font-size: .9rem;
+                 top: 60%;
+             }
+             p {
+                 font-size: .7rem;
+             }
+             .music-container {
+                 top: 112vh;
+             }
+             .music-container {
+                 top: 86%;
+                 left: 1%;
+             }
+             .bg-3 {
+                 height: 400px;
+             }
+             #icon {
+                 width: 100%;
              }
              .toggle-button {
                  display: flex;
@@ -359,5 +375,36 @@
              }
              .navbar-links.active {
                  display: flex;
+             }
+             .title h2 {
+                 font-size: 1.7rem;
+                 padding-right: 25%;
+                 padding-bottom: 4%;
+             }
+             .berserk-title {
+                 height: 200px;
+             }
+             .berserk-container {
+                 font-size: .7rem;
+                 text-align: justify;
+             }
+             #img-div {
+                 width: 50%;
+             }
+             #img-caption {
+                 font-size: .7rem;
+                 line-height: 1rem;
+             }
+             footer {
+                 font-weight: bold;
+             }
+             footer h2 {
+                 font-size: 1rem;
+             }
+             footer p a {
+                 font-size: 1.2rem;
+             }
+             #wiki-kentaro {
+                 font-size: 1.7rem;
              }
          }

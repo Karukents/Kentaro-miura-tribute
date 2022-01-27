@@ -175,7 +175,7 @@
  
  .title {
      margin: 2%;
-     margin-top: 20%;
+     margin-top: 5%;
      padding: 5%;
      display: flex;
      justify-content: center;
@@ -211,11 +211,12 @@
  }
  
  .life {
+     margin-top: 10%;
      padding-bottom: 6%;
  }
  
  .career {
-     padding-bottom: 6%;
+     padding-bottom: 25%;
  }
  
  .berserk-title {
@@ -230,6 +231,7 @@
  
  .berserk-container {
      padding-bottom: 10%;
+     text-align: justify;
      color: white;
      font-size: 1rem;
      font-family: 'Luxurious Roman', cursive;
@@ -373,6 +375,9 @@
      }
      .navbar-links.active {
          display: flex;
+     }
+     .title {
+         height: 7vh;
      }
      .title h2 {
          font-size: 1.7rem;

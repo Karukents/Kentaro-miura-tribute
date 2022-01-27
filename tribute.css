@@ -4,7 +4,7 @@
  }
  
  .header-background {
-     background-image: url("images/background-2-smol.jpg");
+     background-image: url("images/background-8.jpg");
      background-repeat: no-repeat;
      background-position: center center;
      background-size: 100% 100%;
@@ -346,7 +346,7 @@
      }
      #subtitle {
          font-size: .9rem;
-         top: 60%;
+         top: 65%;
      }
      p {
          font-size: .8rem;

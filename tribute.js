@@ -4,6 +4,7 @@ const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
 })
+
 var Guitare = document.getElementById("guitare");
 var icon = document.getElementById("icon");
 
@@ -17,6 +18,7 @@ icon.onclick = function() {
 
     }
 }
+
 window.onscroll = function() { myFunction() };
 var navbar = document.getElementById("navigation");
 var sticky = navbar.offsetTop;

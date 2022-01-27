@@ -63,7 +63,6 @@
      justify-content: center;
      align-items: center;
      position: relative;
-     z-index: 1000;
  }
  
  .navbar-links {
@@ -125,6 +124,7 @@
      width: 100%;
      background-color: white;
      border-radius: 10px;
+     cursor: pointer;
  }
  
  .music-container {
@@ -351,8 +351,9 @@
          font-size: .8rem;
      }
      .music-container {
-         top: 90%;
+         top: 1%;
          left: 1%;
+         padding-right: 0;
      }
      .bg-3 {
          height: 400px;

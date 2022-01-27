@@ -322,7 +322,7 @@
  @media (max-width: 850px) {
      .header-background {
          background-size: cover;
-         height: 390px;
+         height: 375px;
      }
      #profile-picture {
          bottom: 78%;

@@ -1,411 +1,408 @@
-         * {
-             margin: 0;
-             font-family: 'Luxurious Roman', cursive;
-         }
-         
-         .header-background {
-             background-image: url("images/background-2-smol.jpg");
-             background-repeat: no-repeat;
-             background-position: center center;
-             background-size: 100% 100%;
-             height: 500px;
-             width: auto;
-             padding-top: 170px;
-             display: grid;
-             grid-template-columns: 100%;
-             grid-template-rows: 30% 30% 25%;
-             justify-items: center;
-         }
-         
-         #profile-picture {
-             height: 240px;
-             width: 250px;
-             border-radius: 50%;
-             position: relative;
-             bottom: 90%;
-         }
-         
-         h1 {
-             color: white;
-             font-size: 7vw;
-             margin: 4vw;
-             position: absolute;
-             top: 43%;
-             opacity: 0.9;
-             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-         }
-         
-         #subtitle {
-             color: white;
-             font-size: 3vw;
-             position: absolute;
-             top: 70%;
-             text-align: center;
-         }
-         
-         h2 {
-             color: white;
-             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-             font-size: 22px;
-             letter-spacing: 1px;
-         }
-         
-         p {
-             color: white;
-             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-             text-align: justify;
-             font-size: .85rem;
-         }
-         
-         .navigation {
-             height: 100%;
-             display: flex;
-             background-color: #333;
-             justify-content: center;
-             align-items: center;
-             position: relative;
-         }
-         
-         .navbar-links {
-             display: flex;
-             justify-content: space-around;
-         }
-         
-         .nav-bar-list {
-             margin: 0;
-             padding: 0;
-             display: flex;
-             justify-content: space-between;
-         }
-         
-         .nav-bar-list .links,
-         li {
-             color: white;
-             font-size: 28px;
-             list-style: none;
-             transition: all 400ms ease;
-         }
-         
-         .nav-bar-list li a {
-             text-decoration: none;
-             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-             color: white;
-             padding: 1rem;
-             display: block;
-         }
-         
-         .nav-bar-list .links:hover {
-             background-color: #555;
-             color: #333;
-         }
-         
-         .toggle-button {
-             position: absolute;
-             top: 1.30rem;
-             right: 1rem;
-             display: none;
-             flex-direction: column;
-             justify-content: space-between;
-             width: 30px;
-             height: 21px;
-             background: transparent;
-             background-repeat: no-repeat;
-             border: none;
-             cursor: pointer;
-         }
-         
-         .toggle-button .bar {
-             height: 3px;
-             width: 100%;
-             background-color: white;
-             border-radius: 10px;
-         }
-         
-         .music-container {
-             display: flex;
-             justify-content: space-around;
-             align-items: center;
-             position: absolute;
-             right: 85vw;
-             top: 109vh;
-             z-index: 10000;
-         }
-         
-         #icon {
-             width: 30%;
-             cursor: pointer;
-         }
-         
-         .bg-1 {
-             background-image: url(images/berserk-bg-full.jpg);
-             background-position: center center;
-             background-size: 100% 100%;
-             background-repeat: no-repeat;
-             height: 100%;
-             width: auto;
-         }
-         
-         .bg-2 {
-             background-image: url(images/berserk-brackground.jpg);
-             background-position: center center;
-             background-size: cover;
-             height: 100%;
-             width: auto;
-         }
-         
-         .bg-3 {
-             background-image: url(images/background-4.jpg);
-             background-position: center center;
-             background-size: 100% 100%;
-             background-repeat: no-repeat;
-             height: 1200px;
-             width: auto;
-             display: flex;
-             justify-content: center;
-             align-items: flex-end;
-         }
-         
-         main {
-             height: 100%;
-             width: auto;
-             display: flex;
-             flex-direction: column;
-             justify-content: space-around;
-         }
-         
-         .title {
-             margin: 2%;
-             margin-top: 20%;
-             padding: 5%;
-             display: flex;
-             justify-content: center;
-             align-items: flex-start;
-             background-image: url(images/sword-icon-1.png);
-             background-position: center center;
-             background-size: 100% 100%;
-             width: 90%;
-         }
-         
-         .title h2 {
-             font-size: 4rem;
-             margin: 20px;
-             padding-bottom: 2%;
-             height: 100%;
-             width: 100%;
-             color: white;
-             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-             display: flex;
-             justify-content: flex-start;
-             align-items: center;
-             position: relative;
-             left: 15%;
-             bottom: 50%;
-         }
-         
-         .life,
-         .career,
-         .berserk {
-             margin: 0 8%;
-             padding-top: 5%;
-             line-height: 2rem;
-         }
-         
-         .life {
-             padding-bottom: 6%;
-         }
-         
-         .career {
-             padding-bottom: 6%;
-         }
-         
-         .berserk-title {
-             background-image: url(images/berserk-title-1.png);
-             background-position: center center;
-             background-size: 100% 100%;
-             height: 330px;
-             width: 100%;
-             padding-bottom: 30px;
-             margin-bottom: 30px;
-         }
-         
-         .berserk-container {
-             padding-bottom: 10%;
-             color: white;
-             font-size: 1rem;
-             font-family: 'Luxurious Roman', cursive;
-             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-         }
-         
-         #img-div {
-             background-color: #333;
-             padding: 1%;
-             width: 25%;
-             float: right;
-             margin-left: 5%;
-         }
-         
-         #image {
-             height: 40vh;
-             width: 100%;
-         }
-         
-         #img-caption {
-             color: white;
-             font-size: 1rem;
-             font-family: 'Luxurious Roman', cursive;
-             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-             text-align: justify;
-         }
-         
-         .workspace-container {
-             display: flex;
-             justify-content: center;
-             align-items: center;
-             width: auto;
-         }
-         
-         #workspace {
-             height: 100%;
-             width: 100%;
-         }
-         
-         .characters-container {
-             display: flex;
-             justify-content: center;
-             align-items: center;
-             width: auto;
-             flex-direction: column;
-             gap: 20px;
-         }
-         
-         #characters-1,
-         #characters-2 {
-             height: 100%;
-             width: 100%;
-         }
-         
-         footer {
-             text-align: center;
-             display: flex;
-             flex-direction: column;
-             justify-content: space-between;
-             align-items: center;
-         }
-         
-         footer h2 {
-             font-size: 32px;
-             color: white;
-             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 rgb(20, 14, 14);
-             text-align: center;
-         }
-         
-         footer p {
-             margin-top: 5%;
-             margin-bottom: 1%;
-         }
-         
-         footer a {
-             text-decoration: none;
-             color: white;
-             font-size: 5vh;
-             transition: all 400ms ease;
-         }
-         
-         #wiki-kentaro {
-             font-size: 10vh;
-         }
-         
-         footer a:hover {
-             color: #333;
-         }
-         
-         @media (max-width: 850px) {
-             .header-background {
-                 background-size: cover;
-                 height: 350px;
-             }
-             #profile-picture {
-                 bottom: 78%;
-                 height: 190px;
-                 width: 200px;
-             }
-             h1 {
-                 font-size: 9vw;
-                 top: 52%;
-             }
-             #subtitle {
-                 font-size: .9rem;
-                 top: 60%;
-             }
-             p {
-                 font-size: .8rem;
-             }
-             .music-container {
-                 top: 112vh;
-             }
-             .music-container {
-                 top: 86%;
-                 left: 1%;
-             }
-             .bg-3 {
-                 height: 400px;
-                 padding-top: 2rem;
-             }
-             #icon {
-                 width: 100%;
-             }
-             .toggle-button {
-                 display: flex;
-             }
-             .navigation {
-                 flex-direction: column;
-                 align-items: flex-start;
-             }
-             .navbar-links {
-                 display: none;
-             }
-             .nav-bar-list {
-                 flex-direction: column;
-                 width: 100%;
-             }
-             .nav-bar-list li {
-                 text-align: center;
-             }
-             .navbar-links {
-                 width: 100%
-             }
-             .navbar-links.active {
-                 display: flex;
-             }
-             .title h2 {
-                 font-size: 1.7rem;
-                 padding-right: 25%;
-                 padding-bottom: 4%;
-             }
-             .berserk-title {
-                 height: 200px;
-             }
-             .berserk-container {
-                 font-size: .8rem;
-                 text-align: justify;
-             }
-             #img-div {
-                 width: 50%;
-             }
-             #img-caption {
-                 font-size: .7rem;
-                 line-height: 1rem;
-             }
-             footer {
-                 font-weight: bold;
-             }
-             footer h2 {
-                 font-size: 1rem;
-             }
-             footer p a {
-                 font-size: 1.2rem;
-             }
-             #wiki-kentaro {
-                 font-size: 1.7rem;
-             }
-         }
+ * {
+     margin: 0;
+     font-family: 'Luxurious Roman', cursive;
+ }
+ 
+ .header-background {
+     background-image: url("images/background-2-smol.jpg");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: 100% 100%;
+     height: 500px;
+     width: auto;
+     padding-top: 170px;
+     display: grid;
+     grid-template-columns: 100%;
+     grid-template-rows: 30% 30% 25%;
+     justify-items: center;
+ }
+ 
+ #profile-picture {
+     height: 240px;
+     width: 250px;
+     border-radius: 50%;
+     position: relative;
+     bottom: 90%;
+ }
+ 
+ h1 {
+     color: white;
+     font-size: 7vw;
+     margin: 4vw;
+     position: absolute;
+     top: 43%;
+     opacity: 0.9;
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+ }
+ 
+ #subtitle {
+     color: white;
+     font-size: 3vw;
+     position: absolute;
+     top: 70%;
+     text-align: center;
+ }
+ 
+ h2 {
+     color: white;
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+     font-size: 22px;
+     letter-spacing: 1px;
+ }
+ 
+ p {
+     color: white;
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+     text-align: justify;
+     font-size: .85rem;
+ }
+ 
+ .navigation {
+     height: 100%;
+     display: flex;
+     background-color: #333;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+ }
+ 
+ .navbar-links {
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ .nav-bar-list {
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .nav-bar-list .links,
+ li {
+     color: white;
+     font-size: 28px;
+     list-style: none;
+     transition: all 400ms ease;
+ }
+ 
+ .nav-bar-list li a {
+     text-decoration: none;
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+     color: white;
+     padding: 1rem;
+     display: block;
+ }
+ 
+ .nav-bar-list .links:hover {
+     background-color: #555;
+     color: #333;
+ }
+ 
+ .toggle-button {
+     position: absolute;
+     top: 1.30rem;
+     right: 1rem;
+     display: none;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 30px;
+     height: 21px;
+     background: transparent;
+     background-repeat: no-repeat;
+     border: none;
+     cursor: pointer;
+ }
+ 
+ .toggle-button .bar {
+     height: 3px;
+     width: 100%;
+     background-color: white;
+     border-radius: 10px;
+ }
+ 
+ .music-container {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     position: absolute;
+     right: 85vw;
+     top: 109vh;
+     z-index: 10000;
+ }
+ 
+ #icon {
+     width: 30%;
+     cursor: pointer;
+ }
+ 
+ .bg-1 {
+     background-image: url(images/berserk-bg-full.jpg);
+     background-position: center center;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     height: 100%;
+     width: auto;
+ }
+ 
+ .bg-2 {
+     background-image: url(images/berserk-brackground.jpg);
+     background-position: center center;
+     background-size: cover;
+     height: 100%;
+     width: auto;
+ }
+ 
+ .bg-3 {
+     background-image: url(images/background-4.jpg);
+     background-position: center center;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     height: 1200px;
+     width: auto;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+ }
+ 
+ main {
+     height: 100%;
+     width: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+ 
+ .title {
+     margin: 2%;
+     margin-top: 20%;
+     padding: 5%;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     background-image: url(images/sword-icon-1.png);
+     background-position: center center;
+     background-size: 100% 100%;
+     width: 90%;
+ }
+ 
+ .title h2 {
+     font-size: 4rem;
+     margin: 20px;
+     padding-bottom: 2%;
+     height: 100%;
+     width: 100%;
+     color: white;
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     position: relative;
+     left: 15%;
+     bottom: 50%;
+ }
+ 
+ .life,
+ .career,
+ .berserk {
+     margin: 0 8%;
+     padding-top: 5%;
+     line-height: 2rem;
+ }
+ 
+ .life {
+     padding-bottom: 6%;
+ }
+ 
+ .career {
+     padding-bottom: 6%;
+ }
+ 
+ .berserk-title {
+     background-image: url(images/berserk-title-1.png);
+     background-position: center center;
+     background-size: 100% 100%;
+     height: 330px;
+     width: 100%;
+     padding-bottom: 30px;
+     margin-bottom: 30px;
+ }
+ 
+ .berserk-container {
+     padding-bottom: 10%;
+     color: white;
+     font-size: 1rem;
+     font-family: 'Luxurious Roman', cursive;
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+ }
+ 
+ #img-div {
+     background-color: #333;
+     padding: 1%;
+     width: 25%;
+     float: right;
+     margin-left: 5%;
+ }
+ 
+ #image {
+     height: 40vh;
+     width: 100%;
+ }
+ 
+ #img-caption {
+     color: white;
+     font-size: 1rem;
+     font-family: 'Luxurious Roman', cursive;
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+     text-align: justify;
+ }
+ 
+ .workspace-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: auto;
+ }
+ 
+ #workspace {
+     height: 100%;
+     width: 100%;
+ }
+ 
+ .characters-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: auto;
+     flex-direction: column;
+     gap: 20px;
+ }
+ 
+ #characters-1,
+ #characters-2 {
+     height: 100%;
+     width: 100%;
+ }
+ 
+ footer {
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ footer h2 {
+     font-size: 32px;
+     color: white;
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 rgb(20, 14, 14);
+     text-align: center;
+ }
+ 
+ footer p {
+     margin-top: 5%;
+     margin-bottom: 1%;
+ }
+ 
+ footer a {
+     text-decoration: none;
+     color: white;
+     font-size: 5vh;
+     transition: all 400ms ease;
+ }
+ 
+ #wiki-kentaro {
+     font-size: 10vh;
+ }
+ 
+ footer a:hover {
+     color: #333;
+ }
+ 
+ @media (max-width: 850px) {
+     .header-background {
+         background-size: cover;
+         height: 420px;
+     }
+     #profile-picture {
+         bottom: 78%;
+         height: 190px;
+         width: 200px;
+     }
+     h1 {
+         font-size: 9vw;
+         top: 52%;
+     }
+     #subtitle {
+         font-size: .9rem;
+         top: 60%;
+     }
+     p {
+         font-size: .8rem;
+     }
+     .music-container {
+         top: 86%;
+         left: 1%;
+     }
+     .bg-3 {
+         height: 400px;
+         padding-top: 2rem;
+     }
+     #icon {
+         width: 70%;
+     }
+     .toggle-button {
+         display: flex;
+     }
+     .navigation {
+         flex-direction: column;
+         align-items: flex-start;
+     }
+     .navbar-links {
+         display: none;
+     }
+     .nav-bar-list {
+         flex-direction: column;
+         width: 100%;
+     }
+     .nav-bar-list li {
+         text-align: center;
+     }
+     .navbar-links {
+         width: 100%
+     }
+     .navbar-links.active {
+         display: flex;
+     }
+     .title h2 {
+         font-size: 1.7rem;
+         padding-right: 25%;
+         padding-bottom: 4%;
+     }
+     .berserk-title {
+         height: 200px;
+     }
+     .berserk-container {
+         font-size: .8rem;
+         text-align: justify;
+     }
+     #img-div {
+         width: 50%;
+     }
+     #img-caption {
+         font-size: .7rem;
+         line-height: 1rem;
+     }
+     footer {
+         font-weight: bold;
+     }
+     footer h2 {
+         font-size: 1rem;
+     }
+     footer p a {
+         font-size: 1.2rem;
+     }
+     #wiki-kentaro {
+         font-size: 1.7rem;
+     }
+ }

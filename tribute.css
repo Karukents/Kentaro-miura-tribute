@@ -35,7 +35,7 @@
      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
  }
  
- #subtitle {
+ #tribute-info {
      color: white;
      font-size: 3vw;
      position: absolute;
@@ -242,12 +242,12 @@
      padding-bottom: 10%;
      text-align: justify;
      color: white;
-     font-size: 1rem;
+     font-size: .85rem;
      font-family: 'Luxurious Roman', cursive;
      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
  }
  
- #img-div {
+ #img-container {
      background-color: #333;
      padding: 1%;
      width: 25%;
@@ -255,12 +255,12 @@
      margin-left: 5%;
  }
  
- #image {
+ #img {
      height: 40vh;
      width: 100%;
  }
  
- #img-caption {
+ #img-description {
      color: white;
      font-size: 1rem;
      font-family: 'Luxurious Roman', cursive;
@@ -268,16 +268,23 @@
      text-align: justify;
  }
  
- .workspace-container {
+ #img-div {
      display: flex;
+     flex-direction: column;
      justify-content: center;
      align-items: center;
      width: auto;
  }
  
- #workspace {
+ #image {
      height: 100%;
      width: 100%;
+ }
+ 
+ #img-caption {
+     font-size: 2.5rem;
+     padding-bottom: 2%;
+     text-align: center;
  }
  
  .characters-container {
@@ -322,7 +329,7 @@
      transition: all 400ms ease;
  }
  
- #wiki-kentaro {
+ #tribute-link {
      font-size: 10vh;
  }
  
@@ -344,7 +351,7 @@
          font-size: 9vw;
          top: 52%;
      }
-     #subtitle {
+     #tribute-info {
          font-size: .9rem;
          top: 65%;
      }
@@ -401,12 +408,15 @@
          font-size: .8rem;
          text-align: justify;
      }
-     #img-div {
+     #img-container {
          width: 50%;
      }
-     #img-caption {
+     #img-description {
          font-size: .7rem;
          line-height: 1rem;
+     }
+     #img-caption {
+         font-size: 1.2rem;
      }
      footer {
          font-weight: bold;
@@ -417,7 +427,7 @@
      footer p a {
          font-size: 1.2rem;
      }
-     #wiki-kentaro {
+     #tribute-link {
          font-size: 1.7rem;
      }
  }

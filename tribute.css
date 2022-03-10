@@ -4,7 +4,7 @@
  }
  
  .header-background {
-     background-image: url("https://imgur.com/ANadZdL");
+     background-image: url("https://i.imgur.com/ANadZdL.jpg");
      background-repeat: no-repeat;
      background-position: center center;
      background-size: 100% 100%;
@@ -146,7 +146,7 @@
  }
  
  .bg-1 {
-     background-image: url(images/berserk-bg-full.jpg);
+     background-image: url(https://i.imgur.com/LmkyDbd.jpg);
      background-position: center center;
      background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -155,7 +155,7 @@
  }
  
  .bg-2 {
-     background-image: url(images/berserk-brackground.jpg);
+     background-image: url(https://i.imgur.com/LxXCnv4.jpg);
      background-position: center center;
      background-size: cover;
      height: 100%;
@@ -163,7 +163,7 @@
  }
  
  .bg-3 {
-     background-image: url(images/background-4.jpg);
+     background-image: url(https://i.imgur.com/UgC7BVe.jpg);
      background-position: center center;
      background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -189,7 +189,7 @@
      display: flex;
      justify-content: center;
      align-items: flex-start;
-     background-image: url(images/sword-icon-1.png);
+     background-image: url(https://i.imgur.com/Qgh9eI0.png);
      background-position: center center;
      background-size: 100% 100%;
      width: 85%;
@@ -229,7 +229,7 @@
  }
  
  .berserk-title {
-     background-image: url(images/berserk-title-1.png);
+     background-image: url(https://i.imgur.com/jyeIahQ.png);
      background-position: center center;
      background-size: 100% 100%;
      height: 330px;

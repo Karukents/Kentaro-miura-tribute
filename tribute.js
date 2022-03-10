@@ -11,10 +11,10 @@ var icon = document.getElementById("icon");
 icon.onclick = function() {
     if (Guitare.paused) {
         Guitare.play();
-        icon.src = "images/pause-icon.png"
+        icon.src = "https://i.imgur.com/7db1dl2.png"
     } else {
         Guitare.pause();
-        icon.src = "images/play-icon.png"
+        icon.src = "https://i.imgur.com/x6mcHt4.png"
 
     }
 }

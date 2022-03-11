@@ -30,7 +30,7 @@
      font-size: 7vw;
      margin: 4vw;
      position: absolute;
-     top: 43%;
+     top: 210px;
      opacity: 0.9;
      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
  }
@@ -39,7 +39,7 @@
      color: white;
      font-size: 3vw;
      position: absolute;
-     top: 70%;
+     top: 375px;
      text-align: center;
  }
  
